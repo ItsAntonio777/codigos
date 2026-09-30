@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>LUIS GONZALEZ</title>
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(108, 171, 221);
+                padding: 10px 20px;
+            }
+            .logo-pequeno {
+                width: 300px;
+                height: auto;
+                display: block;
+            }
+            .logo-mini {
+                width: 150px;
+                height: auto;
+                display: block;
+            }
+            .logo-cabecera {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-bottom: 15px; /* Corregido */
+            }
+            .barra-navegacion {
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton-nav {
+                text-decoration: none;
+                color: whitesmoke;
+                background-color: #FFC659;
+                padding: 6px 12px;
+                border-radius: 4px;
+                font-size: 14px;
+                font-family: sans-serif;
+                transition: background-color 0.3s;
+                font-weight: bold;
+            }
+            .boton-nav:hover {
+                background-color: rgb(236, 51, 37);
+                color: aliceblue;
+            }
+            .boton-nav.activo {
+                background-color: #1C2C5B;
+                color: whitesmoke;
+                font-weight: bold;
+            }
+            main {
+                display: flex;
+                gap: 20px;
+            }
+            aside {
+                width: 25%;
+                background-color: rgb(255, 198, 89);
+                padding: 15px;
+            }
+            section {
+                width: 75%;
+                background-color: rgb(255, 198, 89);
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 style="margin: 0;">Sitio web de Luis Gonzalez</h1> <!-- Corregido -->
+                <nav class="barra-navegacion">
+                    <a href="gonzalezh.html" class="boton-nav activo">inicio</a>
+                    <a href="gonzalezh2.html" class="boton-nav">albumes</a>
+                    <a href="gonzalezh3.html" class="boton-nav">integrantes</a>
+                </nav>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHEuQjO92DLxqridLIzd6ZCJrglDpgdNjNHuOy1jfdsQ&s=10" alt="logo de mi sitio web" class="logo-pequeno">
+        </header>
+        <main>
+            <aside>
+                <h3>Barra lateral</h3>
+                <p>¡Quiero Fanta!</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwE72-IBfzs8_YrG8xi581q1Bh-1LgfnA368KL7LR3g&s=10" alt="logo de mi sitio web" class="logo-pequeno">
+            </aside>
+            <section>
+                <article>
+                    <h2>Informacion</h2>
+                    <p>Oasis es una banda inglesa de rock formada en Mánchester. Sus inicios se remontan a 1990, cuando el cantante Chris Hutton, el guitarrista Paul Arthurs, el bajista Paul McGuigan y el baterista Tony McCarroll formaron «The Rain». La creación de lo que acabaría siendo Oasis se produjo un año después, con la inclusión de Liam Gallagher en reemplazo de Hutton. La alineación definitiva quedó constituida con el hermano de este, Noel, quien comenzó a desempeñarse, entre otras cosas, como el compositor principal.</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Pagina creada por Luis Gonzalez</p>
+        </footer>
+    </body>
+</html>
